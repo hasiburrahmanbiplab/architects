@@ -30,6 +30,24 @@
     .our-feature-container .feature-text {
         text-align: center;
     }
+    /* feature lover part start */
+    .feature-love-container{
+        flex-direction: column-reverse;
+        row-gap: 60px;
+    }
+    .feature-content-image .overly{
+        max-width: 200px;
+        left: 0;
+        bottom:0;
+        transform: rotate(0deg);
+    }
+     .feature-content-text .inner-text-2 .inner-item:nth-child(3){
+        display: none;
+     }
+     .feature-content-text .inner-text-2 .inner-item:nth-child(4){
+        display: none;
+     }
+    
   }
   
   /* Small Devices (Tablets) */
@@ -49,6 +67,23 @@
          max-width: 500px;
          text-align: center;
      }
+     /* feature love part  */
+     .feature-love-container{
+        flex-direction: column-reverse;
+        row-gap: 60px;
+    }
+    .feature-content-image .overly{
+        max-width: 200px;
+        left: 0;
+        bottom:0;
+        transform: rotate(0deg);
+    }
+     .feature-content-text .inner-text-2 .inner-item:nth-child(3){
+        display: none;
+     }
+     .feature-content-text .inner-text-2 .inner-item:nth-child(4){
+        display: none;
+     }
   }
   /* Medium Devices (Small Laptops) */
   @media (min-width: 768px) and (max-width: 991.99px) {
@@ -56,6 +91,10 @@
     .banner-title {
         font-size: 55px;
     }
+    /* feature love */
+     .feature-content-text .inner-text-2 .inner-item:nth-child(4){
+        display: none;
+     }
   }
   
   /* Large Devices (Laptops and Desktops) */

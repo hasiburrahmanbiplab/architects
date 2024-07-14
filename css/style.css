@@ -185,14 +185,13 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 40%;
+    width: 200px;
     height: 100px;
     background-color: #FF900E;
     position: absolute;
     left: 10%;
     bottom: 5%;
     color: #FFFFFF;
-    transform: rotate(20deg);
 }
 .feature-content-image .overly h6{
     font-size: 30px;
