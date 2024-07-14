@@ -26,14 +26,16 @@ a{
     max-width: 992px;
     margin: 0 auto;
     border: 1px solid blue;
+    padding: 0 10px;
 }
 .btn-color{
     color: #FF900E;
 }
 .banner-title{
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 600;
     color: #131313;
+    line-height: 72px;
 }
 .section-title{
     font-size: 45px;
@@ -55,9 +57,11 @@ a{
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
+    background-color: #FF900E;
     padding: 10px 15px;
     text-transform: capitalize;
-    background-origin: #FF900E;
+    border: none;
+    border-radius: 5px;
 }
 /* common css end */
 /* header part start */
@@ -65,7 +69,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 15px 0;
 }
 .navbar-logo a{
    font-size: 30px;
@@ -89,12 +93,31 @@ a{
     transition: ease-in-out 0.2s;
 }
 /* banner part start */
+.banner{
+    margin-top: 60px;
+}
+.banner-container {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+    padding: 5px;
+    align-items: center;
+}
 .banner-text{
     max-width: 700px;
     text-align: center;
 }
 .banner-text h1 span{
     display: block;
+}
+.banner-text p{
+    padding: 20px 0;
+}
+.banner-image img{
+    width: 100%;
+    height: auto;
 }
 /* banner part end */
 /* header part end */

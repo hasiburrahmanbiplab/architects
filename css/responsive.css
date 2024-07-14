@@ -1,0 +1,44 @@
+/* Extra Small Devices (Phones) */
+@media (max-width: 576.99px) {
+    /* Styles */
+    .banner-title {
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .navbar {
+       flex-direction: column;
+       align-items: start;
+       justify-content: start;
+       row-gap: 30px;
+    }
+    .navbar nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  /* Small Devices (Tablets) */
+  @media (min-width: 577px) and (max-width: 767.99px) {
+    /* Styles */
+  }
+  
+  /* Medium Devices (Small Laptops) */
+  @media (min-width: 768px) and (max-width: 991.99px) {
+    /* Styles */
+  }
+  
+  /* Large Devices (Laptops and Desktops) */
+  @media (min-width: 992px) and (max-width: 1199.99px) {
+    /* Styles */
+  }
+  
+  /* Extra Large Devices (Large Desktops) */
+  @media (min-width: 1200px) and (max-width: 1399.99px) {
+    /* Styles */
+  }
+  
+  /* Extra Extra Large Devices (Large Screens) */
+  @media (min-width: 1400px) {
+    /* Styles */
+  }
+  
