@@ -64,12 +64,8 @@
   }
   
   /* Extra Large Devices (Large Desktops) */
-  @media (min-width: 1200px) and (max-width: 1399.99px) {
+  @media screen and (min-width: 1200px){
     /* Styles */
   }
   
-  /* Extra Extra Large Devices (Large Screens) */
-  @media (min-width: 1400px) {
-    /* Styles */
-  }
   
