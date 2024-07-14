@@ -2,8 +2,8 @@
 @media (max-width: 576.99px) {
     /* Styles */
     .banner-title {
-        font-size: 45px;
-        line-height: 65px;
+        font-size: 40px;
+        line-height: 53px;
     }
     .navbar {
        flex-direction: column;
