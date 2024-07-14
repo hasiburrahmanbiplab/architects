@@ -22,6 +22,9 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+.gap{
+    margin: 120px 0;
+}
 .container{
     max-width: 992px;
     margin: 0 auto;
@@ -55,7 +58,7 @@ a{
 }
 .common-btn{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: #FFFFFF;
     background-color: #FF900E;
     padding: 10px 15px;
@@ -97,7 +100,6 @@ a{
     margin-top: 60px;
 }
 .banner-container {
-    background-color: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,3 +123,29 @@ a{
 }
 /* banner part end */
 /* header part end */
+/* our-feature part start */
+.our-feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+.feature-image{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   flex-basis: 100%;
+   gap: 15px;
+}
+.feature-image .div img{
+    width: 100%;
+    height: auto;
+}
+ .our-feature-container .feature-text{
+    flex-basis: 100%;
+}
+.our-feature-container .feature-text p{
+    padding: 20px 0;
+}
+
+/* our-feature part end */
