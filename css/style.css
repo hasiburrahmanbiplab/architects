@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+/* common css end */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    max-width: 992px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+.btn-color{
+    color: #FF900E;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 600;
+    color: #131313;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #131313;
+}
+.section-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+}
+.feature-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #131313;
+}
+.common-btn{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    background-origin: #FF900E;
+}
+/* common css end */
+/* header part start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.navbar-logo a{
+   font-size: 30px;
+   font-weight: 600;
+   color: #131313;
+}
+.navbar nav ul{
+    display: flex;
+    gap: 30px;
+}
+.navbar nav ul li a{
+    font-size:14px ;
+    font-weight: 400;
+    color: #727272;
+    border-bottom: 1px solid transparent;
+    transition: ease-in-out 0.2s;
+}
+.navbar nav ul li a:hover{
+    border-bottom: 1px solid #FF900E;
+    color: #FF900E;
+    transition: ease-in-out 0.2s;
+}
+/* banner part start */
+.banner-text{
+    max-width: 700px;
+    text-align: center;
+}
+.banner-text h1 span{
+    display: block;
+}
+/* banner part end */
+/* header part end */
