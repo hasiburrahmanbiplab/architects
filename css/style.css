@@ -214,16 +214,15 @@ a{
     margin-bottom: 50px;
 }
 .facts-container .facts-items{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
 }
 .facts-items .item{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-basis:100%;
     row-gap: 5px;
     padding: 10px;
     border: 1px solid #FF900E;
