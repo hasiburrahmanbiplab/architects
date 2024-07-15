@@ -58,6 +58,12 @@
        height: 241px;
     }
      /* facts part end */
+     /* sponspors part start */
+     .sponspors-logos{
+        grid-template-columns: repeat(1 , 100px);
+        grid-template-rows: repeat(5 , 100px);
+     }
+     /* sponspors part end */
   }
   
   /* Small Devices (Tablets) */
@@ -98,6 +104,13 @@
      .facts-container .facts-items{
         grid-template-columns: 1fr 1fr;
         gap: 50px;
+     }
+     /* sponspors part start */
+     .sponspors-logos{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        justify-items: center;
+        border: 1px solid  black;
      }
   }
   /* Medium Devices (Small Laptops) */

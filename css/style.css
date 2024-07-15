@@ -247,6 +247,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 50px;
 }
 .sponspors-text{
     max-width: 550px;
@@ -259,9 +260,6 @@ a{
     column-gap: 50px;
     justify-content: center;
     align-items: center;
-}
-.sponspors-logos .logo{
-   
 }
 .sponspors-logos .logo img{
     width: 100%;
