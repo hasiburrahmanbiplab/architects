@@ -98,7 +98,6 @@
      .facts-container .facts-items{
         grid-template-columns: 1fr 1fr;
         gap: 50px;
-        border: 1px solid green;
      }
   }
   /* Medium Devices (Small Laptops) */
